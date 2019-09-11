@@ -87,7 +87,7 @@ class ViewController: UIViewController {
 
     func changeNavigationBarColor() {
         self.navigationController?.navigationBar.barTintColor = UIColor(red:0.24, green:0.59, blue:0.88, alpha:1)
-        self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
+        self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
         self.navigationController?.navigationBar.barStyle = UIBarStyle.black;
     }
 }
